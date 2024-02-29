@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "navbar-extension-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/navbarExtension/NavbarExtensionApplicationCustomizer.js",
+          "manifest": "./src/extensions/navbarExtension/NavbarExtensionApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-3.6.0.min.js",
+      "globalName": "jQuery"
+    }
+
+  },
+  "localizedResources": {
+    "NavbarExtensionApplicationCustomizerStrings": "lib/extensions/navbarExtension/loc/{locale}.js"
+  }
+}

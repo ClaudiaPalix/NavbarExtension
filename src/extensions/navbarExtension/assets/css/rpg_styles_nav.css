@@ -1,0 +1,203 @@
+#HeaderButtonRegion{
+        display: none;
+}
+ 
+#sp-appBar{
+        display: none;
+}
+.ms-HorizontalNavItems{
+ display: flex;
+ justify-content: flex-end;
+}
+#O365_SuiteBranding_container a{
+        display: none;
+}
+#O365_MainLink_TenantLogo_container a{
+        display: none;
+}
+#O365_SuiteBranding_container div, #O365_MainLink_TenantLogo_container div{
+        background-color:rgb(0, 78, 140);
+}
+ 
+#O365_HeaderRightRegion{
+        display: none;
+}
+.ms-HorizontalNav-chevronDown{
+        color: rgb(0, 78, 140);
+}
+.ms-HorizontalNav-chevronDown{
+        color: rgb(0, 78, 140);
+}
+ 
+ .ms-HorizontalNavItem{
+      color: rgb(0, 78, 140);
+      border-bottom: none!important;
+      padding: 5px 5px!important;
+       border-radius: 5px;
+ }
+.ms-HorizontalNavItem-linkText{
+        color: rgb(0, 78, 140);
+      border-bottom: none!important;
+       border-radius: 5px;
+       padding: 5px 10px!important;
+}
+ .ms-HorizontalNavItem-linkText.is-not-selected {
+        color: rgb(0, 78, 140);
+        border-bottom: none;
+ }
+ .ms-HorizontalNavItem-linkText.is-selected{
+      color: #fff;
+      background-color: rgb(0, 78, 140);
+      padding: 5px 10px!important;
+ 
+ }
+ .ms-HorizontalNavItem-linkText:hover{
+      color: #fff;
+      background-color: rgb(0, 78, 140);
+      border-radius: 5px;
+      border-bottom: none!important;
+      text-decoration: none!important;
+ }
+ .ms-HorizontalNavItem-Edit{
+        color:rgb(0, 78, 140);
+        padding: 5px 10px!important;
+        text-decoration: none!important;
+        border-radius: 5px;
+ }
+.ms-HorizontalNavItem-Edit:hover{
+     color: #fff;
+      background-color: rgb(0, 78, 140);
+  text-decoration: none!important;
+}
+.ms-HorizontalNav-chevronDown{
+        font-size: 13px;
+        position: relative;
+        right: 5px;
+}
+.mainHeader-104{
+        height: 60px;
+}
+.ms-HorizontalNavItem{
+        margin-right: 0!important;
+}
+.o365sx-navbar{
+      background: rgb(0, 78, 140)!important;
+ }
+ .o365cs-base .o365sx-button:active{
+      background: rgb(0, 78, 140)!important;  
+ }
+ .o365cs-base .o365sx-button:hover{
+      background: rgb(0, 78, 140)!important;    
+ }
+ .o365cs-base .o365sx-waffle{
+         background: rgb(0, 78, 140)!important;    
+ }
+ .actionsWrapper-115{
+        display: none!important;
+ }
+ #sbcId{
+        max-width: 400px;
+        display: block!important;
+ }
+ #O365_SearchBoxContainer_container{
+        margin-left: 0px!important;
+ }
+ 
+ .headerRow-102{
+        background-color: #fff!important;
+ }
+#spSiteHeader div{
+        background-color: #fff;
+}
+ 
+.o365cs-base .o365sx-button{
+        background-color: transparent!important;
+        color: #fff!important;
+}
+#O365_MainLink_Affordance{
+    visibility: hidden!important;
+}
+ 
+#leftRegion span{
+    display: none;
+}
+ 
+#O365_MainLink_TenantLogo_container{
+        visibility: hidden;
+}
+ 
+#O365_SearchBoxContainer_container{
+        flex: 0!important;
+      }
+ #topLevelRegion #centerRegion{
+  flex: 0!important;
+}
+ 
+.embedded .navRightSection{
+        width: 100%!important;
+        background: #20417c!important;
+        right: 0!important;
+        padding-right: 15px!important;
+}
+ 
+.embedded .navContents{
+        justify-content: flex-end!important;
+        padding: 15px 15px!important;
+        background: #20417c!important;
+}
+.embedded .homeBtn{
+        display: block!important;
+}
+.embedded #navIcon, .embedded #closeBtn{
+        margin-right: 20px!important;
+}
+.embedded #spCommandBar{
+        display: none!important;
+}
+ 
+.embedded .navRightSection{
+        position:relative!important;
+        right: auto!important;
+}
+ 
+ 
+[class*="actionsWrapper"] {
+   display: none !important;
+}
+#sp-appBar{display:none!important;}
+ 
+ 
+@media (max-width: 1400px) {
+   #sbcId{
+        max-width: 350px;
+ }
+}
+@media (max-width: 1300px) {
+   #sbcId{
+        max-width: 300px;
+        margin: 8px 10px;
+ }
+  #O365_SearchBoxContainer_container{
+        flex: 0!important;
+        margin-left: 0px!important;
+ }
+ 
+}
+ 
+@media (max-width: 450px) {
+   #sbcId{
+        max-width: 240px;
+ }
+}
+ 
+@media (min-width: 350px) and (max-width: 450px) {
+        #sbcId {
+             max-width: 240px;
+             min-width: 240px;
+        }
+     }
+ 
+ 
+     .simpleFooterNameItem{
+        display: none;
+      }

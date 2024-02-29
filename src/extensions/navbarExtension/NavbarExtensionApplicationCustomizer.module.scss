@@ -1,0 +1,466 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+@import 'node_modules/@microsoft/sp-office-ui-fabric-core/dist/sass/_SPFabricCore.scss';
+
+.navRightSection {
+  position: fixed!important;
+  right: 20px;
+  top:0px!important;
+  z-index: 12;
+ 
+}
+
+.navRightSection .contents {
+  display: flex;
+  width: auto;
+  height: 48px;
+  background: transparent;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.navRightSection .contents a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.navRightSection .profile {
+  display: flex;
+  align-items: center;
+}
+
+.navRightSection .navIcons {
+  display: flex;
+  align-items: center;
+}
+.navIcon{
+  opacity: 1;
+}
+.navRightSection .profile .imgBox {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #bebdbd;
+  overflow: hidden;
+}
+
+.navRightSection .profile .imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.iconMenuNav{
+  display: none;
+}
+.iconMenuNav i{
+  color: #fff;
+  z-index: 999999;
+  position: absolute;
+  right: 0px;
+  top: 17px;
+
+}
+.closeBtn{
+  font-style: normal;
+  font-size: 17px;
+  display: none;
+}
+.dFlex{
+  display: flex!important;
+}
+.dNone{
+  display: none!important;
+}
+.dBlock{
+  display: block!important;
+}
+.navShow{
+  display: flex!important;
+  flex-direction: column;
+  width: auto!important;
+  max-width: 250px!important;
+  height: auto!important;
+  background:  rgb(0, 78, 140)!important;   
+  padding: 15px 10px;
+  position: relative;
+  top: 48px;
+  align-content: left;
+  }
+
+.iconMenuNav img{
+  width: 22px;
+}
+.navIcons i{
+  color: #fff;
+  position: relative;
+  top: 1px;
+  margin-left: 6px;
+  font-size: 13px;
+}
+.navIcons a{
+  cursor: pointer;
+}
+
+.oneRPG{
+  transition: .3s ease-in-out;
+  text-decoration: none;
+}
+.HomeBtn{
+  transition: .3s ease-in-out;
+  text-decoration: none;
+  display: none;
+
+}
+.RpgSocialBtn{
+  transition: .3s ease-in-out;
+  text-decoration: none;
+  display: none;
+}
+.oneRPG:hover, .HomeBtn:hover, .RpgSocialBtn:hover{
+  background: #fff;
+  color:  rgb(0, 78, 140)!important;
+  padding: 4px 10px 4px 10px;
+  border-radius: 5px;
+}
+.navDropIconBox{
+  background: #fff;
+  min-width: 160px;
+  padding: 10px 5px;
+  list-style: none;
+  position: absolute;
+  top: 40px;
+  display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  max-height: 242px;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+.navDropIconBox li{
+  margin-top: 6px;
+  cursor: pointer;
+  color: #222;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+.newClass {
+  display: none;
+}
+.navDropIconBox li:hover{
+  background: rgb(0, 78, 140);
+  color: #fff;
+}
+
+.noMargin{
+  margin: 0!important;
+}
+.navDropIcon{
+  transition: .3s ease-in-out;
+}
+.activeNav{
+ background: #fff;
+  color:  rgb(0, 78, 140)!important;
+  padding: 4px 3px 4px 10px;
+  border-radius: 5px; 
+}
+.navDropIcon:hover{
+  background: #fff;
+  color:  rgb(0, 78, 140)!important;
+  padding: 4px 3px 4px 10px;
+  border-radius: 5px;
+}
+.navDropIcon:hover i{
+  color:  rgb(0, 78, 140)!important;
+}
+.navDropIcon img{
+  width: 10px;
+  position: relative;
+  bottom: 1px;
+  margin-left: 3px;
+}
+.navDropIcon:hover img{
+  -webkit-filter: grayscale(100%) brightness(17%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+  filter: grayscale(100%) brightness(17%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+}
+
+
+.activeNav i{
+  color: rgb(0, 78, 140)!important;
+}
+
+
+.navRightSection ::-webkit-scrollbar {
+width: 6px;
+border-radius: 5px;
+}
+
+
+.navRightSection ::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+
+.navRightSection ::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+
+.navRightSection ::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+.navRightSection .notification img{
+  width: 16px;
+  position: relative;
+  top: 2px;
+  flex-direction: column;
+
+
+}
+.navRightSection .notification{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  flex-direction: column;
+  cursor: pointer;
+  
+}
+
+.activeNav img{
+   -webkit-filter: invert(40%) grayscale(100%) brightness(34%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(1);
+}
+.navDropIcon.activeNav img{
+      -webkit-filter: grayscale(100%) brightness(17%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+  filter: grayscale(100%) brightness(17%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+}
+
+
+
+// .notificationIcon:hover img{
+
+//    -webkit-filter: invert(40%) grayscale(100%) brightness(34%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+//   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(1);
+// }
+.notificationIcon.activeNav{
+  background: transparent;
+}
+
+
+
+
+
+@media (max-width: 1100px){
+ .navRightSection .contents{
+  display: none;
+  position: fixed;
+  right: 0;
+ }
+ .HomeBtn{
+  margin-top: 0!important;
+ }
+  .iconMenuNav{
+  display: flex!important;
+  align-items: center;
+  margin-left: 20px;
+  height: 48px;
+  }
+  .iconMenuNav i{
+    cursor: pointer;
+  }
+  .navShow .navIcons{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+  }
+
+  .profile #userName{
+      margin-bottom: 0!important;
+  }
+  .navRightSection{
+      right: 32px;
+  }
+    .dropDownIcon{
+  margin-top: 15px;
+   }
+  .navRightSection  .notificationIcon{
+      margin-bottom: 15px;
+  }
+  .navRightSection .notification{
+      margin-right: 0px;
+  }
+  .navDropIconBox{
+      position: relative;
+      top: 0;
+      margin-top: 10px;
+  }
+  .navRightSection .contents a{
+      margin-bottom: 0;
+      margin-top: 15px;
+  }
+  .navRightSection .profile{
+      margin-top: 10px;
+  }
+
+
+}
+
+@media (max-width: 576px){
+   #SearchButton{
+      position: absolute;
+      top: 0px;
+      left: 10px;
+  }
+  .navShow{
+    max-width: 100%!important;
+  }
+  .navRightSection .contents{
+    width: 100%!important;
+  }
+  .navIcons{
+    justify-content: center!important;
+    align-items: center!important;
+  }
+  .navRightSection .contents a{
+    text-align: center;
+    margin-right: 0;
+  }
+  .navRightSection .imgBox{
+    margin-left: 10px;
+  }
+  .navRightSection .profile{
+    justify-content: center;
+  }
+  .activeNav{
+    display: block;
+    padding: 5px 3px 5px 10px;
+    margin: 0!important;
+  }
+  .navRightSection .profile a{
+    margin-top: 0!important;
+  }
+}
+
+
+
+//styles for footer
+
+
+
+footer div{
+  min-height: auto!important;
+}
+
+@media (max-width :1400px){
+  footer > div:first-child{
+      padding: 20px 50px;
+  }
+}
+
+@media (max-width :850px){
+  footer > div:first-child{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px 20px;
+  }
+  footer > div > div:first-child{
+      margin-bottom: 15px;
+  }
+}
+@media (max-width :450px){
+  footer > div > :nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+   footer > div:first-child {
+         padding: 20px 10px;
+      }
+}
+
+footer > div:first-child {
+  padding: 50px 100px;
+}
+footer > div > div:first-child{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+footer .simpleFooterNameItem{
+      display: none;
+}
+.footerContents{
+      color: #fff;
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+
+}
+.footerLogo{
+      width: 130px;
+      margin-right: 40px;
+}
+
+ .socialOIcons{
+    display: flex;
+    gap: 20px;
+ }
+
+  .socialOIcons a{
+     color: #fff;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .socialOIcons img{
+          width: 20px;
+  }
+ .youtubeIcon{
+          width: 23px;
+  }
+ .linkdinIcon{
+          width: 18px;
+  }
+
+  footer div{
+          min-height: auto!important;
+  }
+
+   @media (max-width :1400px){
+          footer > div:first-child{
+                  padding: 50px 50px;
+          }
+  }
+
+  @media (max-width :850px){
+          footer > div:first-child{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+              padding: 40px 20px;
+          }
+          footer > div > div:first-child{
+                  margin-bottom: 15px;
+          }
+  }
+  @media (max-width :450px){
+          footer > div > :nth-child(2) {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+              }
+           footer > div:first-child {
+                 padding: 30px 10px;
+              }
+  }
+
+.simpleFooterNameItem{
+  display: none;
+}
+
+.footer_logo{
+  width: 100px;
+}
